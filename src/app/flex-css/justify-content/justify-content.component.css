@@ -1,0 +1,21 @@
+html, body { 
+    margin: 0 ;
+    padding: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my-parent{
+    background-color: #039BE5;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    height: 300px;
+}
+
+.box{
+    background-color: #01579B;
+    width: 50px; 
+    height: 50px;
+    margin: 5px;
+    color: white;
+}

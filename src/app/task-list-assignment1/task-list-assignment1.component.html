@@ -1,0 +1,118 @@
+<h3>
+  Welcome to my personal time management system!
+</h3>
+
+<br>
+<br>
+
+<div class="taskBox">
+  <div class="wrapper">
+    <div class="container">
+      <mat-accordion>
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Task 1
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+
+          <div class="details">
+            <a [routerLink]="['/taskdetails']">Click here for more details</a>
+          </div>
+        </mat-expansion-panel>
+
+        <mat-expansion-panel (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false">
+        </mat-expansion-panel>
+      </mat-accordion>
+
+<mat-divider></mat-divider>
+
+    </div>
+  </div>
+</div>
+
+<div class="taskBox">
+  <div class="wrapper">
+    <div class="container">
+      <mat-accordion>
+        <mat-expansion-panel>
+  
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Task 2
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+  
+          <div class="details">
+            <a [routerLink]="['/taskdetails']">Click here for more details</a>
+          </div>
+        </mat-expansion-panel>
+  
+        <mat-expansion-panel (opened)="panelOpenState = true"
+          (closed)="panelOpenState = false">
+        </mat-expansion-panel>
+      </mat-accordion>
+  
+<mat-divider></mat-divider>
+  
+    </div>
+  </div>
+</div>
+
+<div class="taskBox">
+    <div class="wrapper">
+      <div class="container">
+        <mat-accordion>
+          <mat-expansion-panel>
+  
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Task 3
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+  
+            <div class="details">
+              <a [routerLink]="['/taskdetails']">Click here for more details</a>
+            </div>
+          </mat-expansion-panel>
+  
+          <mat-expansion-panel (opened)="panelOpenState = true"
+            (closed)="panelOpenState = false">
+          </mat-expansion-panel>
+        </mat-accordion>
+  
+  <mat-divider></mat-divider>
+  
+      </div>
+    </div>
+</div>
+
+  <div class="taskBox">
+      <div class="wrapper">
+        <div class="container">
+          <mat-accordion>
+            <mat-expansion-panel>
+    
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Task 4
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+    
+              <div class="details">
+                <a [routerLink]="['/taskdetails']">Click here for more details</a>
+              </div>
+            </mat-expansion-panel>
+    
+            <mat-expansion-panel (opened)="panelOpenState = true"
+              (closed)="panelOpenState = false">
+            </mat-expansion-panel>
+          </mat-accordion>
+    
+    <mat-divider></mat-divider>
+    
+        </div>
+      </div>
+  </div>
