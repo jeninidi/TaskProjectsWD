@@ -1,0 +1,31 @@
+h3{
+    color: #f2d4f4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px; 
+    text-align: center;
+  }
+.mat-card{
+    height: 150px;
+    width: 300px;
+}
+
+.mat-card-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding-left: 35px;
+    padding-right: 35px;
+    align-self: right;
+}
+
+.mat-card-header{
+margin-left: 25%;
+margin-right: 25%;
+}
+
+.mat-card-content{
+    text-align: left;
+}
+ label{
+     padding: 5px
+ }
