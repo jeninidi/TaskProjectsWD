@@ -1,0 +1,66 @@
+h3{
+    color: #f2d4f4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px; 
+    text-align: center;
+  }
+
+.mat-card{
+      text-align: center;
+      width: 750px;
+      height: 30em;
+  }
+.mat-card-header{
+      text-align: center;
+      width: 300px;
+      position: absolute;
+      left: 35%;
+  }
+
+  p{
+    font-family: 'Open_sanslight';
+    font-size: 14px;
+    color: white;
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+    text-align: center;
+    line-height: 32px;
+    position: relative;
+    top: 75px;
+  }
+
+  h4{
+    font-family: 'Roboto';
+    font-size: 18px;
+    position: relative;
+    top: 50px;
+  }
+
+  img{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      padding: 10px;
+  }
+
+  .social{
+      display: inline-block;
+      position: relative;
+      top: 50px;
+  }
+
+  .follow-us{
+      position: relative;
+      top: 50px;
+  }
+
+  button{
+    position:absolute;
+    bottom:0;
+  }
+
+  a{
+    text-decoration: none;
+     color: white;
+  }
