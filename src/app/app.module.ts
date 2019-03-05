@@ -28,6 +28,7 @@ import { JustifyContentComponent } from './flex-css/justify-content/justify-cont
 import { TaskListAssignment1Component } from './task-list-assignment1/task-list-assignment1.component';
 import { TaskDetailsComponent } from './task-list-assignment1/task-details/task-details.component';
 import { TaskAboutComponent } from './task-list-assignment1/task-about/task-about.component';
+import { DatingWebsiteAssignment2Component } from './dating-website-assignment2/dating-website-assignment2.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { TaskAboutComponent } from './task-list-assignment1/task-about/task-abou
     JustifyContentComponent,
     TaskListAssignment1Component,
     TaskDetailsComponent,
-    TaskAboutComponent
+    TaskAboutComponent,
+    DatingWebsiteAssignment2Component
 
   ],
   imports: [

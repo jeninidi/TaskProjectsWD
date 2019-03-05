@@ -5,6 +5,7 @@ import { FlexCssComponent } from './flex-css/flex-css.component';
 import { TaskListAssignment1Component } from './task-list-assignment1/task-list-assignment1.component';
 import { TaskDetailsComponent } from './task-list-assignment1/task-details/task-details.component';
 import { TaskAboutComponent } from './task-list-assignment1/task-about/task-about.component';
+import { DatingWebsiteAssignment2Component } from './dating-website-assignment2/dating-website-assignment2.component';
 
 const routes: Routes = [
   {
@@ -31,7 +32,11 @@ const routes: Routes = [
   {
     path: 'about-tasklist',
     component: TaskAboutComponent
-  }
+  },
+{
+  path: 'dating-website',
+  component: DatingWebsiteAssignment2Component
+}
 ];
 
 @NgModule({
