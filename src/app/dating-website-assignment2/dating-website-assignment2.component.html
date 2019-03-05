@@ -3,28 +3,38 @@
 </h1>
 
 <form>
+
   <fieldset>
    <legend>Your face</legend>
-   Your image: <input type="file">
+    <label for="image">Your image:</label>  
+    <input type="file" id="imgFile" name="yourPicture" required>
    <br>
-   Image preview: <img id="preview"> 
+   <label for="showPic">Image preview:</label> 
+   <img id="preview" id="viewImg"> 
    <br>
   </fieldset>
+
   <fieldset>
     <legend>Your general details</legend>
-    Name: <input type="text" placeholder="Your full name">
+    <label for="name">Name:</label>
+    <input type="text" placeholder="Your full name" id="name" name="yourName" required >
     <br>
-    Gender: <input type="radio">Male <input type="radio" Female>
+    <label for="gender">Gender:</label> 
+    <input type="radio" id="gender1" name="maleGender">Male 
+    <input type="radio" id="gender2" name="femaleGender">Female
     <br>
-    Age: <input type="number">
+    <label for="age">Age</label> 
+    <input type="number" id="years" name="yourAge" required>
     <br>
-    Date of birth: <input type="date">
+    <label for="birthday">Date of birth:</label>
+    <input type="date" id="birthDate" name="yourBirthday" required>
     <br>
-    Favorite color: <input type="color">
+    <label for="pickFavColor">Favorite color:</label>
+    <input type="color" id="colorpicker" name="YourColor">
     <br>
-    Which country: 
-    <select>
-      <option>         </option>
+    <label for="homeland">Which country:</label>
+    <select id="origin" name="yourHomecountry" required>
+      <option>          </option>
       <option> America  </option>
       <option> Iceland  </option>
       <option> Greenland</option>
@@ -32,21 +42,33 @@
       <option> Canada   </option>
     </select>
   </fieldset>
+
   <fieldset>
     <legend>Your indicators:</legend>
-    Height: Short <input type="range" min="0" max="100"> Tall
-    Salary: Poor  <input type="range" min="0" max="100"> Rich
+    <label for="height">Height:</label>
+    <label for="indicatorShort">Short</label> 
+    <input type="range" min="0" max="100" id="height" name="your Height"> 
+    <label for="indicatorTall">Tall</label>
+    <label for="income">Salary:</label> 
+    <label for="indicatorLow">Low</label>  
+    <input type="range" min="0" max="100" id="income" name="yourIncome"> 
+    <label for="indicatorHigh">High</label>
   </fieldset>
+
   <fieldset>
     <legend>
       Your contact information:
     </legend>
-    Email:  <input type="email">
-    Mobile: <input type="tel">
-    Address:<textarea> </textarea> 
-    Method to contact you: 
-    <input type="checkbox"> Email
-    <input type="checkbox"> WhatsApp
-    <input type="checkbox"> In-app chat
+    <label for="email">Email:</label>  
+    <input type="email" id="emailAddress" name="yourEmail" required>
+    <label for="phoneNumber">Mobile:</label> 
+    <input type="tel" id="telNum" name="yourPhoneNumber" required>
+    <label for="address">Address:</label>
+    <textarea id="inputAddress"  name="yourAddress" ></textarea>  
+    <label for="contactMethod">Method to contact you:</label> 
+    <input type="checkbox" id="mail" name="chooseEmail"> Email
+    <input type="checkbox" id="whatsapp" name="chooseWhatsApp"> WhatsApp
+    <input type="checkbox" id="inApp" name="chooseInApp"> In-app chat
   </fieldset>
+
  </form>
