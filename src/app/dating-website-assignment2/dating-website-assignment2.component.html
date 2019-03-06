@@ -1,8 +1,11 @@
+<script src="main.js"></script>
+
+<div id="wrapper">
 <h1>
   Please enter your details for our dating website!
 </h1>
 
-<form>
+<form name="webForm" action="" method="GET">
 
   <fieldset>
    <legend>Your face</legend>
@@ -10,7 +13,7 @@
     <input type="file" id="imgFile" name="yourPicture" required>
    <br>
    <label for="showPic">Image preview:</label> 
-   <img id="preview" id="viewImg"> 
+   <img id="preview" name="viewImg"> 
    <br>
   </fieldset>
 
@@ -45,14 +48,14 @@
 
   <fieldset>
     <legend>Your indicators:</legend>
-    <label for="height">Height:</label>
-    <label for="indicatorShort">Short</label> 
+    <label for="height" id="rng">Height:</label>
+    <label for="indicatorShort" id="rng">Short</label> 
     <input type="range" min="0" max="100" id="height" name="your Height"> 
-    <label for="indicatorTall">Tall</label>
-    <label for="income">Salary:</label> 
-    <label for="indicatorLow">Low</label>  
+    <label for="indicatorTall" id="rng">Tall</label>
+    <label for="income" id="rng">Salary:</label> 
+    <label for="indicatorLow" id="rng">Low</label>  
     <input type="range" min="0" max="100" id="income" name="yourIncome"> 
-    <label for="indicatorHigh">High</label>
+    <label for="indicatorHigh" id="rng">High</label>
   </fieldset>
 
   <fieldset>
@@ -72,3 +75,5 @@
   </fieldset>
 
  </form>
+ <button>Submit</button>
+</div>
