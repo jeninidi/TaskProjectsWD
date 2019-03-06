@@ -7,12 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DatingWebsiteAssignment2Component implements OnInit {
 
- 
-
   constructor() { }
 
   ngOnInit() {
-    
   }
 
 }
