@@ -1,0 +1,14 @@
+.container {
+    height: 1000px;
+}
+
+.game-area {
+    height: 500px;
+    width: 500px;
+    background-color: darkgrey;
+    border: 1px solid gray;
+}
+
+.mat-grid-tile {
+    border: 1px solid gray;
+}

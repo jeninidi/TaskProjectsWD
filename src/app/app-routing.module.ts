@@ -6,6 +6,7 @@ import { TaskListAssignment1Component } from './task-list-assignment1/task-list-
 import { TaskDetailsComponent } from './task-list-assignment1/task-details/task-details.component';
 import { TaskAboutComponent } from './task-list-assignment1/task-about/task-about.component';
 import { DatingWebsiteAssignment2Component } from './dating-website-assignment2/dating-website-assignment2.component';
+import { TicTacToeComponent } from './tic-tac-toe-game/tic-tac-toe/tic-tac-toe.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
 {
   path: 'dating-website',
   component: DatingWebsiteAssignment2Component
+},
+{
+  path: 'tictactoe',
+  component: TicTacToeComponent
 }
 ];
 

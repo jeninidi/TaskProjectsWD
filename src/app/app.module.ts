@@ -29,6 +29,7 @@ import { TaskListAssignment1Component } from './task-list-assignment1/task-list-
 import { TaskDetailsComponent } from './task-list-assignment1/task-details/task-details.component';
 import { TaskAboutComponent } from './task-list-assignment1/task-about/task-about.component';
 import { DatingWebsiteAssignment2Component } from './dating-website-assignment2/dating-website-assignment2.component';
+import { TicTacToeComponent } from './tic-tac-toe-game/tic-tac-toe/tic-tac-toe.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { DatingWebsiteAssignment2Component } from './dating-website-assignment2/
     TaskListAssignment1Component,
     TaskDetailsComponent,
     TaskAboutComponent,
-    DatingWebsiteAssignment2Component
+    DatingWebsiteAssignment2Component,
+    TicTacToeComponent
 
   ],
   imports: [
